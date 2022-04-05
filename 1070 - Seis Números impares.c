@@ -1,14 +1,14 @@
 #include<stdio.h>
 
 main(){
-	int x,y=1;
-	scanf("%d",&x);
-	while(y<=6){
-		if((x%2)==1){
-			printf("%d\n",x);
-			y++;
-			x++;
+	int X,Y=1;
+	scanf("%d",&X);
+	while(Y<=6){
+		if((X%2)==1){
+			printf("%d\n",X);
+			Y++;
 		}
+		X++;
 	}
 	return 0;
 }
