@@ -16,8 +16,6 @@ main(){
 			}
 		}
 	}
-	printf("%d",soma);
-		
-	
+	printf("%d\n",soma);
 	return 0;
 }
